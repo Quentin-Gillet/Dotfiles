@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtDesignStudio 3.9.0, 2023-03-20T19:51:06. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">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</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/Users/quentin/QtDesignStudio/SimpleKeyboard/SimpleKeyboard.qmlproject</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/Users/quentin/QtDesignStudio/SimpleKeyboard/SimpleKeyboard.qmlproject</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Design</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml/imports/qdsproject</value>
+    <value type="QString">qdsproject</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml/assets</value>
+    <value type="QString">assets</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml/imports</value>
+    <value type="QString">imports</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/SimpleKeyboard/imports</value>
+    <value type="QString">imports</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/CoffeeMachine/content/fonts</value>
+    <value type="QString">fonts</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml</value>
+    <value type="QString">qdsproject</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/CoffeeMachine/content</value>
+    <value type="QString">content</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml/WashingMachineHome</value>
+    <value type="QString">WashingMachineHome</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/CoffeeMachine/imports/CoffeeMachine</value>
+    <value type="QString">CoffeeMachine</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml/mockImports</value>
+    <value type="QString">mockImports</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/SimpleKeyboard</value>
+    <value type="QString">SimpleKeyboard</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml/mockImports/backend</value>
+    <value type="QString">backend</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/CoffeeMachine/imports</value>
+    <value type="QString">imports</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/CoffeeMachine</value>
+    <value type="QString">CoffeeMachine</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/SimpleKeyboard/content</value>
+    <value type="QString">content</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/cppdemoproject/qml/WashingMachineHome/assets</value>
+    <value type="QString">assets</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/quentin/QtDesignStudio/CoffeeMachine/content/images</value>
+    <value type="QString">images</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+   <value type="QString">AssetExporter.Export</value>
+   <value type="QString">AssetImporter.Import</value>
+   <value type="QString">AssetExporter.Export</value>
+   <value type="QString">AssetImporter.Import</value>
+   <value type="QString">AssetExporter.Export</value>
+   <value type="QString">AssetImporter.Import</value>
+   <value type="QString">AssetExporter.Export</value>
+   <value type="QString">AssetImporter.Import</value>
+   <value type="QString">AssetExporter.Export</value>
+   <value type="QString">AssetImporter.Import</value>
+   <value type="QString">AssetExporter.Export</value>
+   <value type="QString">AssetImporter.Import</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+  </valuelist>
+ </data>
+</qtcreator>

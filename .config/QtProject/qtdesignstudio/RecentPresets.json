@@ -1,0 +1,20 @@
+[
+    {
+        "categoryId": "B.StudioProject",
+        "name": "Empty",
+        "qtVersion": "Qt 6.2",
+        "screenSize": "1280 x 960",
+        "styleName": "Imagine",
+        "useQtVirtualKeyboard": false,
+        "wizardName": "Empty"
+    },
+    {
+        "categoryId": "B.StudioProject",
+        "name": "Empty",
+        "qtVersion": "Qt 6.2",
+        "screenSize": "1280 x 960",
+        "styleName": "Default",
+        "useQtVirtualKeyboard": false,
+        "wizardName": "Empty"
+    }
+]
