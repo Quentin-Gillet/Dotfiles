@@ -7,6 +7,7 @@ return {
     "hrsh7th/cmp-buffer",
     "hrsh7th/cmp-path",
     "saadparwaiz1/cmp_luasnip",
+    "kristijanhusak/vim-dadbod-completion",
   },
   opts = function()
     -- Customization for Pmenu
@@ -80,6 +81,7 @@ return {
         { name = "luasnip" },
         { name = "buffer" },
         { name = "path" },
+        { name = "vim-dadbod-completion" },
       }),
       window = {
         completion = {
