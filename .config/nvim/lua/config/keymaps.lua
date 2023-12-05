@@ -5,3 +5,11 @@
 
 -- ADD jj keybind to go back in normal mode
 vim.keymap.set("i", "jj", "<esc>")
+
+-- Move Lines
+vim.keymap.set("n", "<C-DOWN>", "<cmd>m .+1<cr>==", { desc = "Move down" })
+vim.keymap.set("n", "<C-UP>", "<cmd>m .-2<cr>==", { desc = "Move up" })
+vim.keymap.set("i", "<C-DOWN>", "<esc><cmd>m .+1<cr>==gi", { desc = "Move down" })
+vim.keymap.set("i", "<C-UP>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move up" })
+vim.keymap.set("v", "<C-DOWN>", ":m '>+1<cr>gv=gv", { desc = "Move down" })
+vim.keymap.set("v", "<C-UP>", ":m '<-2<cr>gv=gv", { desc = "Move up" })
