@@ -1,0 +1,79 @@
+" .ideavimrc is a configuration file for IdeaVim plugin.
+
+let mapleader=" "
+
+""" Plugins  --------------------------------
+set surround
+set multiple-cursors
+set commentary
+set argtextobj
+set NERDTree
+set highlightedyank
+
+""" Plugin settings -------------------------
+let g:argtextobj_pairs="[:],(:),<:>,\":\""
+
+""" Common settings -------------------------
+set showmode
+set so=5
+set incsearch
+set nu
+set scrolloff=5
+set incsearch
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+
+""" set clipboard to system clipboard
+nnoremap yy "+yy
+vnoremap y "+y
+
+nnoremap p "+p
+vnoremap p "+p
+nnoremap P "+P
+vnoremap P "+P
+
+nnoremap dd "+dd
+vnoremap d "+d
+
+""" map tab to tab lines
+nnoremap <Tab> >>_
+nnoremap <S-Tab> <<_
+inoremap <S-Tab> <C-D>
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
+
+""" Mappings -------------------------------
+map <leader>e :NERDTreeToggle <CR>
+
+map <leader>f <Action>(Find)
+map <leader>cf <Action>(ReformatCode)
+map <leader>r <Action>(Run)
+map <leader>d <Action>(Debug)
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>R <Action>(RenameElement)
+map <leader>c <Action>(Stop)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+""" map <leader><leader> <Action>(GotoFile)
+map <leader><leader> <Action>(SearchEverywhere)
+map <leader>m <Action>(CloseContent)
+
+map <S-h> <Action>(PreviousTab)
+map <S-l> <Action>(NextTab)
+
+map gh <Action>(ShowErrorDescription)
+map K <Action>(QuickDefinition)
+map gd <Action>(GotoDeclaration)
+map gf <Action>(SwitchHeaderSource)
+map <leader>ca <Action>(ShowIntentionActions)
+map <leader>o <Action>(FileStructurePopup)
+map <S-Space> <Action>(GotoNextError)
+map <leader>S <Action>(SelectInProjectView)
+
+map s <Action>(StepInto)
+map n <Action>(StepOver)
+map C <Action>(Resume)
+
+map <leader>w <Action>(SplitVertically)
