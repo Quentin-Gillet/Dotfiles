@@ -9,6 +9,7 @@ set commentary
 set argtextobj
 set NERDTree
 set highlightedyank
+set easymotion
 
 """ Plugin settings -------------------------
 let g:argtextobj_pairs="[:],(:),<:>,\":\""
@@ -47,13 +48,14 @@ vnoremap <S-Tab> <gv
 
 """ Mappings -------------------------------
 map <leader>e :NERDTreeToggle <CR>
+map <c-n> :NERDTree <CR>
 
 map <leader>f <Action>(Find)
 map <leader>cf <Action>(ReformatCode)
-map <leader>r <Action>(Run)
+map <leader>R <Action>(Run)
 map <leader>d <Action>(Debug)
 map <leader>b <Action>(ToggleLineBreakpoint)
-map <leader>R <Action>(RenameElement)
+map <leader>r <Action>(RenameElement)
 map <leader>c <Action>(Stop)
 map <leader>z <Action>(ToggleDistractionFreeMode)
 """ map <leader><leader> <Action>(GotoFile)
@@ -77,3 +79,17 @@ map n <Action>(StepOver)
 map C <Action>(Resume)
 
 map <leader>w <Action>(SplitVertically)
+sethandler <c-j> a:vim
+sethandler <c-h> a:vim
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+
+map <leader>j <Plug>(easymotion-f)
+map <leader>J <Plug>(easymotion-s)
+
+map <leader>n <Action>(NewFile)
+
+map <leader>M <Action>(Makefile.RefreshMakefileProject)
+map <leader>MR <Action>(Makefile.ChangeMakefileProjectContentRoot)
